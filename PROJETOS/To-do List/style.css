@@ -1,7 +1,40 @@
-#content{
-    background-color: aquamarine;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    /* Color Theme Swatches in Hex */
+    --sky-1: #010A26; 
+    --sky-2: #011640; 
+    --sky-3: #023373; 
+    --sky-4: #1B80BF; 
+    --sky-5: #3BACD9;
+
+
+
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black url(img/AdobeStock_1252527609_Preview.jpeg) no-repeat center;
+    background-size: cover;
+    
+}
+form{
+    background-color: azure;
+    
 }
 
-#input-content{
-    display: flex;
+#entrada-container{
+    
+}
+
+ul{
+    list-style: none;
 }
