@@ -10,10 +10,17 @@
     --sky-3: #023373; 
     --sky-4: #1B80BF; 
     --sky-5: #3BACD9;
+    --color-done-task: rgb(110, 214, 110);
 
 
 
     
+}
+
+h1{
+    position: absolute;
+    top: 10%;
+    color: white;
 }
 body{
     width: 100vw;
@@ -26,13 +33,76 @@ body{
     background-size: cover;
     
 }
+
+
+h2{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    background-color: #011640;
+}
 form{
     background-color: azure;
+    border: var(--sky-1) 2px solid;
+    border-radius: 5px;
+   
+    
+}
+#tarefa{
+    font-size: 20px;
+}
+
+.btn-add{
+    
     
 }
 
-#entrada-container{
+.material-symbols-outlined{
+   
     
+    font-size: 20px !important;
+
+}
+
+
+#entrada-container{
+    display: flex;
+    justify-content: center;
+    padding: 7px;
+    font-size: 20px;
+}
+
+
+#lista-das-tarefas{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    margin: 5px 4px;
+   
+
+}
+
+.loyalt{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: var(--sky-3) 1px solid;
+    padding: 3px;
+    width: 100%;
+    width: 350px;
+
+}
+
+.done{
+    background-color:var(--color-done-task);
+    text-decoration: line-through;
+}
+
+.task-nome{
+    overflow: hidden;
 }
 
 ul{
