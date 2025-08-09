@@ -1,3 +1,5 @@
+
+
 *{
     padding: 0;
     margin: 0;
@@ -10,11 +12,11 @@
     --sky-3: #023373; 
     --sky-4: #1B80BF; 
     --sky-5: #3BACD9;
-    --color-done-task: rgb(110, 214, 110);
+   
 
 
 
-    
+    --color-done-task: #227302;
 }
 
 h1{
@@ -37,9 +39,8 @@ body{
 
 h2{
     text-align: center;
-    font-size: 20px;
-    color: white;
-    background-color: #011640;
+    font-size: 17px;
+    color: var(--sky-2);
 }
 form{
     background-color: azure;
@@ -64,12 +65,16 @@ form{
 
 }
 
-
+#saida-container{
+    background-color: var(--sky-4);
+    padding: 3px;
+}
 #entrada-container{
     display: flex;
     justify-content: center;
     padding: 7px;
     font-size: 20px;
+    
 }
 
 
@@ -99,6 +104,7 @@ form{
 .done{
     background-color:var(--color-done-task);
     text-decoration: line-through;
+  
 }
 
 .task-nome{
